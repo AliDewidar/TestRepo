@@ -1,0 +1,14 @@
+# this is a comment
+
+
+# ignore all files with the .log extension expect the file vip.log
+*.log
+!vip.log
+
+
+# ignore file test.txt
+test.txt
+# and in terminal i force it to add to staged area i should write (git add -f test.txt)
+
+# i want to ignore folder that name is ignorefolder
+ignorefolder/
